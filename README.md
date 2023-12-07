@@ -22,7 +22,7 @@ eventually computing the odds of a successful attack (or defense).
 The program's logic is based upon the ___Monte Carlo Simulation___ method, _a mathematical technique that predicts possible outcomes of an uncertain event 
 by means of repeated random sampling versus a set of fixed input values._<br>
 In other words, a Monte Carlo Simulation builds a model of possible results by leveraging a probability distribution, such as a uniform or normal distribution, 
-for any variable that has inherent uncertainty (_i.e_ dices). 
+for any variable that has inherent uncertainty (_i.e._ dices). 
 It then recalculates the results over and over, each time using a different set of random numbers between minimum and maximum values and a given set of fixed input variables 
-(_i.e._ in our case those variables are the no. of red and blue armies, as well as the no. of red armies to keep on the ground).<br>
+(_i.e._ the no. of red and blue armies, as well as the no. of red armies to keep on the ground).<br>
 In a typical Monte Carlo experiment, this exercise can be repeated thousands of times to produce a large number of likely outcomes.
