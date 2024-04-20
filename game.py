@@ -1,4 +1,4 @@
-import simulation
+import simulator
 
 
 def run():
@@ -69,7 +69,7 @@ def run():
         blue_armies = int(blue_armies)  # blue armies
         red_stops_at = int(red_stops_at)  # red stops attack at
         n_simulation = int(n_simulation)  # no. of attack simulations
-        red_wins = simulation.simulate(red_armies, blue_armies, red_stops_at, n_simulation)
+        red_wins = simulator.simulate(red_armies, blue_armies, red_stops_at, n_simulation)
         red_wins_perc = round(red_wins / n_simulation * 100.000, 4)
         blue_wins = n_simulation - red_wins
         blue_wins_perc = round(100 - red_wins_perc, 4)
