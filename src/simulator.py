@@ -113,7 +113,7 @@ def roll_dice(n: int) -> list:
 
 
 def print_simulation(res):
-    myfile = "resources/{fname}.txt".format(fname=Path(__file__).stem)
+    myfile = r"C:\Users\Utente\PycharmProjects\risk_calculator\resources\simulator.txt"
     # If file exists, delete it
     if os.path.isfile(myfile):
         os.remove(myfile)

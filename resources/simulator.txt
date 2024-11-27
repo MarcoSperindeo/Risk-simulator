@@ -1,0 +1,35 @@
+n  :  0
+red_tanks  :  13
+blue_tanks  :  3
+red_dice  :  []
+blue_dice  :  []
+
+
+n  :  1
+red_tanks  :  11
+blue_tanks  :  2
+red_dice  :  [5, 4, 2]
+blue_dice  :  [5, 3, 2]
+
+
+n  :  2
+red_tanks  :  10
+blue_tanks  :  1
+red_dice  :  [5, 4, 2]
+blue_dice  :  [5, 1]
+
+
+n  :  3
+red_tanks  :  9
+blue_tanks  :  1
+red_dice  :  [6, 5, 3]
+blue_dice  :  [6]
+
+
+n  :  4
+red_tanks  :  9
+blue_tanks  :  0
+red_dice  :  [3, 2, 2]
+blue_dice  :  [2]
+
+
